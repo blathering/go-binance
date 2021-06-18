@@ -8,7 +8,7 @@ import (
 )
 
 // Endpoints
-const (
+var (
 	baseWsMainURL          = "wss://stream.binance.com:9443/ws"
 	baseWsTestnetURL       = "wss://testnet.binance.vision/ws"
 	baseCombinedMainURL    = "wss://stream.binance.com:9443/stream?streams="
