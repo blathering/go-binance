@@ -362,7 +362,7 @@ type WsTradeHandler func(event *WsTradeEvent)
 // WsTradeServe serve websocket handler with a symbol
 func WsTradeServe(symbol string, handler WsTradeHandler, errHandler ErrHandler) (doneC, stopC chan struct{}, err error) {
 	url := getWsEndpoint()
-	WsTradeServeWithUrl(symbol, handler, errHandler, url)
+	return WsTradeServeWithUrl(symbol, handler, errHandler, url)
 }
 
 func WsTradeServeWithUrl(symbol string, handler WsTradeHandler, errHandler ErrHandler, url string) (doneC, stopC chan struct{}, err error) {
