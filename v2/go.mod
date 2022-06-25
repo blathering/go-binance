@@ -1,4 +1,4 @@
-module github.com/openware/go-binance/v2
+module github.com/blathering/go-binance/v2
 
 go 1.13
 
