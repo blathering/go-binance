@@ -3,7 +3,7 @@ package futures
 import (
 	"context"
 
-	"github.com/openware/go-binance/v2/common"
+	"github.com/blathering/go-binance/v2/common"
 )
 
 // DepthService show depth info
